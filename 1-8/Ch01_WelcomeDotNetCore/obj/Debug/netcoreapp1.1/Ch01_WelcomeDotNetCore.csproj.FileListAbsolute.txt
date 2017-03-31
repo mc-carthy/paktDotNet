@@ -1,0 +1,8 @@
+/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/bin/Debug/netcoreapp1.1/Ch01_WelcomeDotNetCore.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/bin/Debug/netcoreapp1.1/Ch01_WelcomeDotNetCore.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/bin/Debug/netcoreapp1.1/Ch01_WelcomeDotNetCore.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/bin/Debug/netcoreapp1.1/Ch01_WelcomeDotNetCore.dll
+/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/bin/Debug/netcoreapp1.1/Ch01_WelcomeDotNetCore.pdb
+/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/obj/Debug/netcoreapp1.1/Ch01_WelcomeDotNetCore.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/obj/Debug/netcoreapp1.1/Ch01_WelcomeDotNetCore.dll
+/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/obj/Debug/netcoreapp1.1/Ch01_WelcomeDotNetCore.pdb
