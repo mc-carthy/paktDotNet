@@ -1,0 +1,8 @@
+/Users/mick/Documents/dotNet/dotnetTut/4/4-4/bin/Debug/netcoreapp1.1/4-4.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/4/4-4/bin/Debug/netcoreapp1.1/4-4.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/4/4-4/bin/Debug/netcoreapp1.1/4-4.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/4/4-4/bin/Debug/netcoreapp1.1/4-4.dll
+/Users/mick/Documents/dotNet/dotnetTut/4/4-4/bin/Debug/netcoreapp1.1/4-4.pdb
+/Users/mick/Documents/dotNet/dotnetTut/4/4-4/obj/Debug/netcoreapp1.1/4-4.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/4/4-4/obj/Debug/netcoreapp1.1/4-4.dll
+/Users/mick/Documents/dotNet/dotnetTut/4/4-4/obj/Debug/netcoreapp1.1/4-4.pdb

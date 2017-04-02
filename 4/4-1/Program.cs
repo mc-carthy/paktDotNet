@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 
 namespace _4_1
 {
@@ -6,7 +7,7 @@ namespace _4_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var doc = new XDocument ();
         }
     }
 }
