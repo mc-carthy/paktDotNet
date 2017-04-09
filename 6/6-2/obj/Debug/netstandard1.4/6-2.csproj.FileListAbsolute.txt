@@ -1,0 +1,6 @@
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2/bin/Debug/netstandard1.4/6-2.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2/bin/Debug/netstandard1.4/6-2.dll
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2/bin/Debug/netstandard1.4/6-2.pdb
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2/obj/Debug/netstandard1.4/6-2.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2/obj/Debug/netstandard1.4/6-2.dll
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2/obj/Debug/netstandard1.4/6-2.pdb

@@ -1,0 +1,10 @@
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/bin/Debug/netcoreapp1.1/6-2-console.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/bin/Debug/netcoreapp1.1/6-2-console.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/bin/Debug/netcoreapp1.1/6-2-console.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/bin/Debug/netcoreapp1.1/6-2-console.dll
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/bin/Debug/netcoreapp1.1/6-2-console.pdb
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/bin/Debug/netcoreapp1.1/6-2.dll
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/bin/Debug/netcoreapp1.1/6-2.pdb
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/obj/Debug/netcoreapp1.1/6-2-console.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/obj/Debug/netcoreapp1.1/6-2-console.dll
+/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/obj/Debug/netcoreapp1.1/6-2-console.pdb

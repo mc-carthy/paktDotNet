@@ -2155,6 +2155,20 @@
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
         }
       },
+      "System.ValueTuple/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/System.ValueTuple.dll": {}
+        }
+      },
       "System.Xml.ReaderWriter/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2263,6 +2277,20 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
+        }
+      },
+      "6-2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "System.ValueTuple": "4.3.0"
+        },
+        "compile": {
+          "bin/placeholder/netstandard1.4/6-2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netstandard1.4/6-2.dll": {}
         }
       }
     }
@@ -6819,6 +6847,21 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
+    "System.ValueTuple/4.3.0": {
+      "sha512": "cNLEvBX3d6MMQRZe3SMFNukVbitDAEpVZO17qa0/2FHxZ7Y7PpFRpr6m2615XYM/tYYYf0B+WyHNujqIw8Luwg==",
+      "type": "package",
+      "path": "system.valuetuple/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/netstandard1.0/.xml",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/.xml",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "system.valuetuple.4.3.0.nupkg.sha512",
+        "system.valuetuple.nuspec"
+      ]
+    },
     "System.Xml.ReaderWriter/4.3.0": {
       "sha512": "YMI9D0Yi/rQgDF8aMXl+XukmxKdkDo0w00WopVWLSlIbqCMZcTeTfaYY1r3zuM2M6kJ+d+T5n/8K+Dr86XzYcQ==",
       "type": "package",
@@ -7067,10 +7110,16 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
       ]
+    },
+    "6-2/1.0.0": {
+      "type": "project",
+      "path": "../6-2/6-2.csproj",
+      "msbuildProject": "../6-2/6-2.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
+      "6-2 >= 1.0.0",
       "Microsoft.NETCore.App >= 1.1.1"
     ]
   },
@@ -7080,20 +7129,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mick/Documents/dotNet/dotnetTut/1/1-6/1-6.csproj",
-      "projectName": "1-6",
-      "projectPath": "/Users/mick/Documents/dotNet/dotnetTut/1/1-6/1-6.csproj",
-      "outputPath": "/Users/mick/Documents/dotNet/dotnetTut/1/1-6/obj/",
+      "projectUniqueName": "/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/6-2-console.csproj",
+      "projectName": "6-2-console",
+      "projectPath": "/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/6-2-console.csproj",
+      "outputPath": "/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/1-6.dll": "/Users/mick/Documents/dotNet/dotnetTut/1/1-6/bin/placeholder/netcoreapp1.1/1-6.dll"
+        "lib/netcoreapp1.1/6-2-console.dll": "/Users/mick/Documents/dotNet/dotnetTut/6/6-2-console/bin/placeholder/netcoreapp1.1/6-2-console.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mick/Documents/dotNet/dotnetTut/6/6-2/6-2.csproj": {
+              "projectPath": "/Users/mick/Documents/dotNet/dotnetTut/6/6-2/6-2.csproj"
+            }
+          }
         }
       }
     },

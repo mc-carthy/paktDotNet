@@ -7080,16 +7080,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/Ch01_WelcomeDotNetCore.csproj",
+      "projectUniqueName": "/Users/mick/Documents/dotNet/dotnetTut/1/1-8/Ch01_WelcomeDotNetCore/Ch01_WelcomeDotNetCore.csproj",
       "projectName": "Ch01_WelcomeDotNetCore",
-      "projectPath": "/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/Ch01_WelcomeDotNetCore.csproj",
-      "outputPath": "/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/obj/",
+      "projectPath": "/Users/mick/Documents/dotNet/dotnetTut/1/1-8/Ch01_WelcomeDotNetCore/Ch01_WelcomeDotNetCore.csproj",
+      "outputPath": "/Users/mick/Documents/dotNet/dotnetTut/1/1-8/Ch01_WelcomeDotNetCore/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/Ch01_WelcomeDotNetCore.dll": "/Users/mick/Documents/dotNet/dotnetTut/1-8/Ch01_WelcomeDotNetCore/bin/placeholder/netcoreapp1.1/Ch01_WelcomeDotNetCore.dll"
+        "lib/netcoreapp1.1/Ch01_WelcomeDotNetCore.dll": "/Users/mick/Documents/dotNet/dotnetTut/1/1-8/Ch01_WelcomeDotNetCore/bin/placeholder/netcoreapp1.1/Ch01_WelcomeDotNetCore.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
