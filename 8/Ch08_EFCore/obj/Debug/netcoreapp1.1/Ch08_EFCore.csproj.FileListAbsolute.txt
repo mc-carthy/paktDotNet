@@ -1,0 +1,8 @@
+/Users/mick/Documents/dotNet/dotnetTut/8/Ch08_EFCore/bin/Debug/netcoreapp1.1/Ch08_EFCore.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/8/Ch08_EFCore/bin/Debug/netcoreapp1.1/Ch08_EFCore.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/8/Ch08_EFCore/bin/Debug/netcoreapp1.1/Ch08_EFCore.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/8/Ch08_EFCore/bin/Debug/netcoreapp1.1/Ch08_EFCore.dll
+/Users/mick/Documents/dotNet/dotnetTut/8/Ch08_EFCore/bin/Debug/netcoreapp1.1/Ch08_EFCore.pdb
+/Users/mick/Documents/dotNet/dotnetTut/8/Ch08_EFCore/obj/Debug/netcoreapp1.1/Ch08_EFCore.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/8/Ch08_EFCore/obj/Debug/netcoreapp1.1/Ch08_EFCore.dll
+/Users/mick/Documents/dotNet/dotnetTut/8/Ch08_EFCore/obj/Debug/netcoreapp1.1/Ch08_EFCore.pdb
