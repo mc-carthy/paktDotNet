@@ -1,0 +1,16 @@
+/Users/mick/Documents/dotNet/dotnetTut/9/9-3/bin/Debug/netcoreapp1.1/9-3.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/9/9-3/bin/Debug/netcoreapp1.1/9-3.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/9/9-3/bin/Debug/netcoreapp1.1/9-3.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/9/9-3/bin/Debug/netcoreapp1.1/9-3.dll
+/Users/mick/Documents/dotNet/dotnetTut/9/9-3/bin/Debug/netcoreapp1.1/9-3.pdb
+/Users/mick/Documents/dotNet/dotnetTut/9/9-3/obj/Debug/netcoreapp1.1/9-3.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/9/9-3/obj/Debug/netcoreapp1.1/9-3.dll
+/Users/mick/Documents/dotNet/dotnetTut/9/9-3/obj/Debug/netcoreapp1.1/9-3.pdb
+/Users/mick/Documents/dotNet/dotnetTut/9/9-7/bin/Debug/netcoreapp1.1/9-3.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/9/9-7/bin/Debug/netcoreapp1.1/9-3.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/9/9-7/bin/Debug/netcoreapp1.1/9-3.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/9/9-7/bin/Debug/netcoreapp1.1/9-3.dll
+/Users/mick/Documents/dotNet/dotnetTut/9/9-7/bin/Debug/netcoreapp1.1/9-3.pdb
+/Users/mick/Documents/dotNet/dotnetTut/9/9-7/obj/Debug/netcoreapp1.1/9-3.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/9/9-7/obj/Debug/netcoreapp1.1/9-3.dll
+/Users/mick/Documents/dotNet/dotnetTut/9/9-7/obj/Debug/netcoreapp1.1/9-3.pdb
