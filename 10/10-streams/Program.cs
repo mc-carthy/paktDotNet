@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.IO.Compression;
 using System.Xml;
 using static System.Console;
 
@@ -47,6 +48,40 @@ namespace _10_streams
             // output all the contents of the file to the Console
             WriteLine($"{xmlFile} contains {new FileInfo(xmlFile).Length} bytes.");
             WriteLine(File.ReadAllText(xmlFile));
+
+            // compress the XML output
+            string gzipFilePath = @"/Users/mick/Documents/dotnet/dotnetTut/10/10-streams/Ch10_Streams.gzip";
+            // string gzipFilePath = @"C:\Code\Ch10.gzip"; // Windows
+            FileStream gzipFile = File.Create(gzipFilePath);
+            GZipStream compressor = new GZipStream(gzipFile, CompressionMode.Compress);
+            XmlWriter xmlGzip = XmlWriter.Create(compressor);
+            xmlGzip.WriteStartDocument();
+            xmlGzip.WriteStartElement("callsigns");
+            foreach (string item in callsigns)
+            {
+                xmlGzip.WriteElementString("callsign", item);
+            }
+            xmlGzip.Dispose();
+            compressor.Dispose(); // also closes the underlying stream
+            // output all the contents of the compressed file to the Console
+            WriteLine($"{gzipFilePath} contains {new FileInfo(gzipFilePath).Length} bytes.");
+            WriteLine(File.ReadAllText(gzipFilePath));
+            // read a compressed file
+            WriteLine("Reading the compressed XML file:");
+            gzipFile = File.Open(gzipFilePath, FileMode.Open);
+            GZipStream decompressor = new GZipStream(gzipFile, CompressionMode.Decompress);
+            XmlReader reader = XmlReader.Create(decompressor);
+            while (reader.Read())
+            {
+            // check if we are currently on an element node named callsign
+            if ((reader.NodeType == XmlNodeType.Element) && (reader.Name == "callsign"))
+                {
+                    reader.Read(); // move to the Text node inside the element
+                    WriteLine($"{reader.Value}"); // read its value
+                }
+            }
+            reader.Dispose();
+            decompressor.Dispose();
         }
     }
 }
