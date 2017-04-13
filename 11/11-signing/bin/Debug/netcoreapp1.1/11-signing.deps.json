@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.1": {
+      "11-signing/1.0.0": {
+        "dependencies": {
+          "11-cryptographyLib": "1.0.0"
+        },
+        "runtime": {
+          "11-signing.dll": {}
+        }
+      },
+      "11-cryptographylib/1.0.0": {
+        "runtime": {
+          "11-cryptographyLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "11-signing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "11-cryptographylib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -87,6 +87,85 @@ namespace Packt.CS7
                 sha.ComputeHash(Encoding.Unicode.GetBytes(saltedPassword))); 
         
             return (saltedhashedPassword == user.SaltedHashedPassword); 
+        }
+
+        public static string PublicKey; 
+    
+        public static string ToXmlString(this RSA rsa, bool includePrivateParameters) 
+        { 
+            var p = rsa.ExportParameters(includePrivateParameters); 
+            XElement xml; 
+            if (includePrivateParameters) 
+            { 
+                xml = new XElement("RSAKeyValue" 
+                , new XElement("Modulus", Convert.ToBase64String(p.Modulus)) 
+                , new XElement("Exponent", Convert.ToBase64String(p.Exponent)) 
+                , new XElement("P", Convert.ToBase64String(p.P)) 
+                , new XElement("Q", Convert.ToBase64String(p.Q)) 
+                , new XElement("DP", Convert.ToBase64String(p.DP)) 
+                , new XElement("DQ", Convert.ToBase64String(p.DQ)) 
+                , new XElement("InverseQ", Convert.ToBase64String(p.InverseQ)) 
+                ); 
+            } 
+            else 
+            { 
+                xml = new XElement("RSAKeyValue",
+                new XElement("Modulus", Convert.ToBase64String(p.Modulus)),
+                new XElement("Exponent", Convert.ToBase64String(p.Exponent)) 
+                ); 
+            } 
+            return xml?.ToString(); 
         } 
+    
+        public static void FromXmlString(this RSA rsa, string parametersAsXml) 
+        { 
+            var xml = XDocument.Parse(parametersAsXml); 
+            var root = xml.Element("RSAKeyValue"); 
+            var p = new RSAParameters 
+            { 
+                Modulus = Convert.FromBase64String(root.Element("Modulus").Value),
+                Exponent = Convert.FromBase64String(root.Element("Exponent").Value) 
+            }; 
+            if(root.Element("P") != null) 
+            { 
+                p.P = Convert.FromBase64String(root.Element("P").Value); 
+                p.Q = Convert.FromBase64String(root.Element("Q").Value); 
+                p.DP = Convert.FromBase64String(root.Element("DP").Value); 
+                p.DQ = Convert.FromBase64String(root.Element("DQ").Value); 
+                p.InverseQ = Convert.FromBase64String( 
+                root.Element("InverseQ").Value); 
+            } 
+            rsa.ImportParameters(p); 
+        } 
+    
+        public static string GenerateSignature(string data) 
+        { 
+            byte[] dataBytes = Encoding.Unicode.GetBytes(data); 
+            var sha = SHA256.Create(); 
+            var hashedData = sha.ComputeHash(dataBytes); 
+        
+            var rsa = RSA.Create(); 
+            PublicKey = rsa.ToXmlString(false); // exclude private key 
+        
+            return Convert.ToBase64String(
+                rsa.SignHash(hashedData, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1)
+            ); 
+        } 
+    
+        public static bool ValidateSignature(string data, string signature) 
+        { 
+            byte[] dataBytes = Encoding.Unicode.GetBytes(data); 
+            var sha = SHA256.Create(); 
+            var hashedData = sha.ComputeHash(dataBytes); 
+        
+            byte[] signatureBytes = Convert.FromBase64String(signature); 
+        
+            var rsa = RSA.Create(); 
+            rsa.FromXmlString(PublicKey); 
+        
+            return rsa.VerifyHash(
+                hashedData, signatureBytes, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1
+            ); 
+        }
     } 
 } 

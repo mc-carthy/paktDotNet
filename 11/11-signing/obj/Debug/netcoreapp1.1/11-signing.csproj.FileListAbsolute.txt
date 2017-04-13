@@ -1,0 +1,10 @@
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/bin/Debug/netcoreapp1.1/11-signing.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/bin/Debug/netcoreapp1.1/11-signing.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/bin/Debug/netcoreapp1.1/11-signing.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/bin/Debug/netcoreapp1.1/11-signing.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/bin/Debug/netcoreapp1.1/11-signing.pdb
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/bin/Debug/netcoreapp1.1/11-cryptographyLib.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/bin/Debug/netcoreapp1.1/11-cryptographyLib.pdb
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/obj/Debug/netcoreapp1.1/11-signing.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/obj/Debug/netcoreapp1.1/11-signing.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-signing/obj/Debug/netcoreapp1.1/11-signing.pdb
