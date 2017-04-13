@@ -1,0 +1,10 @@
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/bin/Debug/netcoreapp1.1/11-hashing.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/bin/Debug/netcoreapp1.1/11-hashing.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/bin/Debug/netcoreapp1.1/11-hashing.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/obj/Debug/netcoreapp1.1/11-hashing.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/bin/Debug/netcoreapp1.1/11-hashing.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/bin/Debug/netcoreapp1.1/11-hashing.pdb
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/bin/Debug/netcoreapp1.1/11-cryptographyLib.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/bin/Debug/netcoreapp1.1/11-cryptographyLib.pdb
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/obj/Debug/netcoreapp1.1/11-hashing.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/obj/Debug/netcoreapp1.1/11-hashing.pdb

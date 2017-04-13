@@ -34,17 +34,59 @@ namespace Packt.CS7
         { 
             byte[] cryptoBytes = Convert.FromBase64String(cryptoText); 
             var aes = Aes.Create(); 
-            var pbkdf2 = new Rfc2898DeriveBytes( 
-            password, salt, iterations); 
+            var pbkdf2 = new Rfc2898DeriveBytes(password, salt, iterations); 
             aes.Key = pbkdf2.GetBytes(32); 
             aes.IV = pbkdf2.GetBytes(16); 
             var ms = new MemoryStream(); 
-            using (var cs = new CryptoStream( 
-            ms, aes.CreateDecryptor(), CryptoStreamMode.Write)) 
+            using (var cs = new CryptoStream(ms, aes.CreateDecryptor(), CryptoStreamMode.Write)) 
             { 
                 cs.Write(cryptoBytes, 0, cryptoBytes.Length); 
             } 
             return Encoding.Unicode.GetString(ms.ToArray()); 
+        }
+
+        private static Dictionary<string, User> Users = new Dictionary<string, User>(); 
+    
+        public static User Register(string username, string password) 
+        { 
+            // generate a random salt 
+            var rng = RandomNumberGenerator.Create(); 
+            var saltBytes = new byte[16]; 
+            rng.GetBytes(saltBytes); 
+            var saltText = Convert.ToBase64String(saltBytes); 
+        
+            // generate the salted and hashed password 
+            var sha = SHA256.Create(); 
+            var saltedPassword = password + saltText; 
+            var saltedhashedPassword = Convert.ToBase64String( 
+                sha.ComputeHash(Encoding.Unicode.GetBytes(saltedPassword))); 
+        
+            var user = new User 
+            { 
+                Name = username, 
+                Salt = saltText, 
+                SaltedHashedPassword = saltedhashedPassword 
+            }; 
+            Users.Add(user.Name, user); 
+        
+            return user; 
+        } 
+        
+        public static bool CheckPassword(string username, string password) 
+        { 
+            if (!Users.ContainsKey(username)) 
+            { 
+                return false; 
+            } 
+            var user = Users[username]; 
+        
+            // re-generate the salted and hashed password 
+            var sha = SHA256.Create(); 
+            var saltedPassword = password + user.Salt; 
+            var saltedhashedPassword = Convert.ToBase64String(
+                sha.ComputeHash(Encoding.Unicode.GetBytes(saltedPassword))); 
+        
+            return (saltedhashedPassword == user.SaltedHashedPassword); 
         } 
     } 
 } 
