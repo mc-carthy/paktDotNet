@@ -1,0 +1,6 @@
+/Users/mick/Documents/dotNet/dotnetTut/11/11-cryptographyLib/bin/Debug/netstandard1.4/11-cryptographyLib.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-cryptographyLib/bin/Debug/netstandard1.4/11-cryptographyLib.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-cryptographyLib/bin/Debug/netstandard1.4/11-cryptographyLib.pdb
+/Users/mick/Documents/dotNet/dotnetTut/11/11-cryptographyLib/obj/Debug/netstandard1.4/11-cryptographyLib.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/11/11-cryptographyLib/obj/Debug/netstandard1.4/11-cryptographyLib.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-cryptographyLib/obj/Debug/netstandard1.4/11-cryptographyLib.pdb

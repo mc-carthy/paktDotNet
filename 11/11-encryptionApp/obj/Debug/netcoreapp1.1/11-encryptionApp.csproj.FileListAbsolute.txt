@@ -1,0 +1,10 @@
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/bin/Debug/netcoreapp1.1/11-encryptionApp.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/bin/Debug/netcoreapp1.1/11-encryptionApp.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/bin/Debug/netcoreapp1.1/11-encryptionApp.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/bin/Debug/netcoreapp1.1/11-encryptionApp.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/bin/Debug/netcoreapp1.1/11-encryptionApp.pdb
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/bin/Debug/netcoreapp1.1/11-cryptographyLib.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/bin/Debug/netcoreapp1.1/11-cryptographyLib.pdb
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/obj/Debug/netcoreapp1.1/11-encryptionApp.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/obj/Debug/netcoreapp1.1/11-encryptionApp.dll
+/Users/mick/Documents/dotNet/dotnetTut/11/11-encryptionApp/obj/Debug/netcoreapp1.1/11-encryptionApp.pdb
