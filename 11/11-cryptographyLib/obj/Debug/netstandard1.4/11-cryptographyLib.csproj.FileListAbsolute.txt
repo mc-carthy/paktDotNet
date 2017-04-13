@@ -4,3 +4,9 @@
 /Users/mick/Documents/dotNet/dotnetTut/11/11-cryptographyLib/obj/Debug/netstandard1.4/11-cryptographyLib.AssemblyInfo.cs
 /Users/mick/Documents/dotNet/dotnetTut/11/11-cryptographyLib/obj/Debug/netstandard1.4/11-cryptographyLib.dll
 /Users/mick/Documents/dotNet/dotnetTut/11/11-cryptographyLib/obj/Debug/netstandard1.4/11-cryptographyLib.pdb
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-cryptographyLib\bin\Debug\netstandard1.4\11-cryptographyLib.deps.json
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-cryptographyLib\bin\Debug\netstandard1.4\11-cryptographyLib.dll
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-cryptographyLib\bin\Debug\netstandard1.4\11-cryptographyLib.pdb
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-cryptographyLib\obj\Debug\netstandard1.4\11-cryptographyLib.AssemblyInfo.cs
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-cryptographyLib\obj\Debug\netstandard1.4\11-cryptographyLib.dll
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-cryptographyLib\obj\Debug\netstandard1.4\11-cryptographyLib.pdb

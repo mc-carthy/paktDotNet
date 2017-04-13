@@ -8,3 +8,13 @@
 /Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/bin/Debug/netcoreapp1.1/11-cryptographyLib.pdb
 /Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/obj/Debug/netcoreapp1.1/11-hashing.dll
 /Users/mick/Documents/dotNet/dotnetTut/11/11-hashing/obj/Debug/netcoreapp1.1/11-hashing.pdb
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\bin\Debug\netcoreapp1.1\11-hashing.deps.json
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\bin\Debug\netcoreapp1.1\11-hashing.runtimeconfig.json
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\bin\Debug\netcoreapp1.1\11-hashing.runtimeconfig.dev.json
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\bin\Debug\netcoreapp1.1\11-hashing.dll
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\bin\Debug\netcoreapp1.1\11-hashing.pdb
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\bin\Debug\netcoreapp1.1\11-cryptographyLib.dll
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\bin\Debug\netcoreapp1.1\11-cryptographyLib.pdb
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\obj\Debug\netcoreapp1.1\11-hashing.AssemblyInfo.cs
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\obj\Debug\netcoreapp1.1\11-hashing.dll
+C:\Users\Mick\Desktop\aspNetCore\dotnetTut\11\11-hashing\obj\Debug\netcoreapp1.1\11-hashing.pdb
