@@ -1,0 +1,8 @@
+/Users/mick/Documents/dotNet/dotnetTut/10/10-serialization/bin/Debug/netcoreapp1.1/10-serialization.deps.json
+/Users/mick/Documents/dotNet/dotnetTut/10/10-serialization/bin/Debug/netcoreapp1.1/10-serialization.runtimeconfig.json
+/Users/mick/Documents/dotNet/dotnetTut/10/10-serialization/bin/Debug/netcoreapp1.1/10-serialization.runtimeconfig.dev.json
+/Users/mick/Documents/dotNet/dotnetTut/10/10-serialization/bin/Debug/netcoreapp1.1/10-serialization.dll
+/Users/mick/Documents/dotNet/dotnetTut/10/10-serialization/bin/Debug/netcoreapp1.1/10-serialization.pdb
+/Users/mick/Documents/dotNet/dotnetTut/10/10-serialization/obj/Debug/netcoreapp1.1/10-serialization.AssemblyInfo.cs
+/Users/mick/Documents/dotNet/dotnetTut/10/10-serialization/obj/Debug/netcoreapp1.1/10-serialization.dll
+/Users/mick/Documents/dotNet/dotnetTut/10/10-serialization/obj/Debug/netcoreapp1.1/10-serialization.pdb
